@@ -1,0 +1,715 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: rgb(rgb(87, 43, 43));
+    height: 70px;
+    display: flex;
+    align-items: center;
+} */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FFFDD0;
+    width: 100vw;
+    /* overflow: hidden; */
+}
+
+nav {
+    background-color: rgb(7, 5, 10);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* width: 100vw; */
+
+}
+
+.navmainlogo {
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 3%;
+}
+
+.navmainlogo img {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0%;
+}
+
+.navaddress {
+    margin-right: 5%;
+    color: aliceblue;
+    /* size: 236px; */
+    width: 12%;
+    /* background-color: red; */
+}
+
+
+
+.navaddressimg {
+    margin-top: 0.5%;
+    margin-left: 0%;
+    margin-right: 1%;
+    height: 43%;
+    box-sizing: border-box;
+}
+
+.navaddressimg img {
+    height: 25px;
+    box-sizing: border-box;
+}
+
+
+    .navsearch {
+        width: 14%;
+        /* border: 2px solid black; */
+        height: 33%;
+    }
+
+
+    .navsearchimg {
+        /* margin-left: 10px; */
+        width: 3%;
+        height: 34%;
+        border-radius: 5px;
+        /* background-color: red; */
+    }
+
+.navsearchimg img {
+    /* margin-left: 10px; */
+    width: 100%;
+    height: 100%;
+    margin-left: -2%;
+
+}
+
+.navoption {
+    margin-right: 0%;
+    border: 1px black;
+    border-right: none;
+    height: 34%;
+}
+
+.navaccount {
+    margin-left: 4%;
+    list-style: none;
+
+}
+
+.navaccount ul li a {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.navaddress ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navaddress a:hover{
+    font-size: larger;
+    color: cadetblue;
+}
+
+.navaccount a:hover{
+    font-size:larger;
+    color: cadetblue;
+}
+.nav2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: red;
+}
+
+.nav2 nav {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    background-color: red;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    margin: 0% 0%;
+}
+
+.nav2 nav ul li {
+    height: 100%;
+    list-style: none;
+    margin: 0% 4%;
+}
+
+.nav2 nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav2 a:hover{
+    font-size: large;
+    color: cadetblue;
+}
+.dealoftheday {
+    height: 270px;
+    background-color: rgb(133, 116, 116);
+}
+
+.dealofthedayhead {
+    height: 20%;
+    width: 100%;
+    background-color: #ea1571;
+    display: flex;
+    justify-content: center;
+}
+
+.dealofthedayhead h1 {
+    margin: 0% 0%;
+    font-family: 'Sofia', cursive;
+    color: rgb(118, 192, 239);
+}
+
+.dealoutbox {
+    display: flex;
+    /* background-color: rgb(186 22 22); */
+    height: 80%;
+    width: 98%;
+    margin: 0% 2%;
+    justify-content: center;
+}
+.dealinbox {
+    height: 78%;
+    /* background-color: rgb(114, 16, 22); */
+    margin: 2% 4% 0% 4%;
+    width: 11%;
+}
+
+
+.dealinbox img {
+    height: 77%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.dealinbox p {
+    text-align: center;
+    margin-top: 4%;
+}
+.dealinbox a{
+    color: red;
+    text-decoration: none;
+}
+
+.dealinbox img:hover {
+    border: 2px solid orangered;
+    border-radius: 5px;
+    height: 160px;
+    width: 200px;
+}
+
+.dealinbox button:hover {
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    background-color: darkslategrey;
+
+}
+
+.dealoftheday span h1:hover {
+    background-color: blueviolet;
+}
+
+.box1 {
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #95A5A6;
+    display: flex;
+
+}
+
+.box1buyagain {
+    height: 100%;
+    width: 25%;
+    /* background-color:  rgb(149, 165, 166); */
+    background-color: white;
+    margin-left: 1%;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.box1buyagaintext {
+    height: 8%;
+    background-color: white;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 29%;
+    margin-right: 29%;
+
+}
+
+.buyagainimage1 {
+    height: 46%;
+    width: 100%;
+    /* background-color:  bisque ; */
+    background-color: #95A5A6;
+}
+
+.buyagainimage1 img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+
+.box1buyagainimage1text {
+    margin-left: 20%;
+
+}
+
+input[type="number"] {
+    width: 30%;
+    height: 0%;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.box1buyagainimage1textbutton {
+    align-items: center;
+    display: flex;
+    margin-left: 0%;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: 1px black;
+
+}
+.box1buyagainimage1textbutton a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.box1buyagainimage1textbutton button {
+
+    width: 30%;
+    margin-right: 7%;
+}
+
+.box1buyagainimage1text {
+    font-size: large;
+}
+
+.buyagainimage1 img:hover {
+    height: 63%;
+    width: 100%;
+  
+    
+}
+
+.box1box2 {
+    height: 100%;
+    width: 72%;
+    background-color: #95A5A6;
+    margin-left: 1%;
+}
+
+.watchmovie {
+    height: 62%;
+    width: 100%;
+    background-color: #ea1571;
+}
+
+.box1box2watchnow {
+    height: 10%;
+}
+
+.box1box2watchnow {
+    display: flex;
+    justify-content: center;
+}
+
+.watchmovievideo {
+    height: 90%;
+    width: 100%;
+    background-image: url("https://m.media-amazon.com/images/M/MV5BM2ZkMmUwODItNjRiNS00YTI4LTlmMTItYTFhNWIzM2U4YjllXkEyXkFqcGdeQXVyMTE4NTEyNzA@._V1_.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    /* justify-content: bottom; */
+
+}
+
+.watchmovievideo img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.box1box2watchtrailer {
+    margin-top: 12%;
+    margin-left: -33%;
+    /* background-color: aquamarine; */
+    height:  76%;
+    background-color: #ea1571;
+
+
+}
+
+.box1box2watchtrailer a {
+    color: orange;
+    font-size: large;
+    margin: 40%;
+}
+
+.box1box2watchtrailer a:hover {
+    font-size: larger;
+}
+
+.glass3d {
+    height: 38%;
+    /* margin-top: 1%; */
+    /* background-color: darkblue; */
+    display: flex;
+    /* align-items: center; */
+}
+
+.glass3dimg {
+    height: 100%;
+    width: 50%;
+}
+
+.glass3dimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.glass3dtext {
+    height: 88%;
+    background-color: #f4683c;
+    width: 50%;
+
+}
+
+.glass3dtext span {
+    margin-left: 35%;
+}
+.vrglassbutton a{
+    color: black;
+    text-decoration: none;
+
+}
+.vrglassbutton1 {
+    height: 0%;
+    margin-left: 30%;
+    border: 5px;
+    margin-top: 1%;
+    width: 33%;
+    margin-right: -17%;
+}
+
+.vrglassbutton2 {
+    height: 0%;
+    margin-left: 40%;
+    border: 5px;
+    margin-top: 1%;
+}
+
+.vrglassbutton {
+    height: 16%;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 2%;
+    /* background-color: #d8cbc7; */
+    background-color: #f4683c;
+
+}
+
+.vrglassbutton2 button:hover {
+    font-size: larger;
+}
+
+.vrglassbutton1 button:hover {
+    font-size: larger;
+}
+
+.box1box2gap {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box1box2gapimg {
+
+    background-color: #f4683c;
+    height: 80%;
+    width: 80%;
+    /* padding: 21%; */
+    background-image: url("https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-08/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background%20%281%29.jpg");
+    background-size: 1010.67px 320px;
+    display: flex;
+
+
+}
+.box1box2gapimg a{
+    text-decoration-style: none;
+}
+
+.box2{
+    height: 350px;
+    width: 100%;
+    background-color: #FFFDD0;
+    display: flex;
+    justify-content: center;
+
+}
+.reviewyourpurchase h1{
+    font-family: "Mynerve rev=2"
+}
+
+.box2 h1{
+    
+}
+.box2template{
+    height: 90%;
+    width: 98%;
+    background-color: green;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* border: 2px red; */
+    
+}
+
+.reviewyourpurchase{
+    background-color: brown;
+}
+.reviewyourpurchaseimg{
+    height: 60%;
+    width: 92%;
+    margin-left: 4%;
+    background-color: bisque;
+    margin-top: 5%;
+    display: flex;
+    background-image: url("https://evilato.com/wp-content/uploads/2021/09/IMG-20210907-WA0019.jpg");
+    background-size: 309.51px 189px; 
+}
+
+.reviewyourpurchaseimg a{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.reviewyourpurchasestar{
+    margin-left: 31%;
+    height: 8%;
+    margin-top: 1%;
+    margin-right: 35%;
+    background-color: beige;
+    
+}
+.reviewyourpurchasetext{
+    margin-top: 6%;
+}
+.reviewyourpurchasetext a{
+    padding-left: 18%;
+    text-decoration: none;
+    color: white;
+}
+
+.youmightalsolike{
+    background-color: grey;
+}
+
+.youmightalsolikeimg{
+    height: 60%;
+    width: 92%;
+    margin-left: 4%;
+    background-color: bisque;
+    margin-top: 5%;
+    display: flex;
+    background-image: url("http://sc04.alicdn.com/kf/Hb609919bef5548c4b66cce150cdaccack.jpg");
+    background-size: 309.51px 189px; 
+}
+
+.youmightalsolikeimg a{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.youmightalsoliketext{
+    padding: 2%;
+    padding-left: 14%;
+}
+.youmightalsolikeseemore a{
+    padding-left: 14%;
+    text-decoration: none;
+    color: red;
+
+}
+
+.youmightalsolikeseemore button{
+    width: 27%;
+    margin-left: 30%;
+}
+
+.minitv{
+    background-color: greenyellow;
+}
+.minitvvideo{
+    height: 70%;
+    width: 92%;
+    margin-left: 4%;
+    background-color: bisque;
+    margin-top: 5%;
+    display: flex;
+    /* background-image: url("http://sc04.alicdn.com/kf/Hb609919bef5548c4b66cce150cdaccack.jpg"); */
+    background-size: 309.51px 189px; 
+}
+.minitvtext h3{
+    margin-left: 30%;
+    margin-top: 2%;
+    background-color: gray;
+    margin-right: 35%;
+}
+.minitv p{
+    margin-left: 5%;
+}
+.gifts
+{
+background-color: darkorange;
+}
+
+.giftgrid{
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    grid-row-gap: 0%;
+    grid-column-gap: 2%;
+    height: 35%;
+    width: 100%;
+    /* margin-left: 4%; */
+    background-color: bisque;
+    margin-top: 0%;
+    grid-template-columns: 49% 49%;
+    
+   
+}
+.giftforboys{
+    /* background-color: brown; */
+    background-image: url("https://previews.123rf.com/images/anelina/anelina1211/anelina121100004/16618945-smiling-boy-holding-present-box-isolated-on-white.jpg");
+    background-size:100% 100%; 
+}
+.giftforgirls{
+    background-color: blue;
+    background-image: url("https://www.shutterstock.com/image-photo/people-childhood-summer-holidays-concept-260nw-244680742.jpg");
+    background-size:100% 100%; 
+}
+
+.giftformens{
+    background-color: #ea1571;
+    background-image: url("https://thumbs.dreamstime.com/z/man-smiling-holding-gifts-hands-white-background-50637048.jpg");
+    background-size:100% 100%;
+
+}
+.giftforwomens{
+    background-color: rgb(21, 236, 54);
+    background-image: url("https://img.freepik.com/premium-photo/portrait-beautiful-woman-dress-with-gift_1258-47268.jpg");
+    background-size:100% 100%;
+
+}
+.giftsforboyslinkbox{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.giftsforboyslinkbox a{
+    height: 100%;
+    width: 100%;
+}
+.movetoptop{
+    height: 10px;
+    width: 100%;
+    background-color: brown;
+   
+}
+
+.movetotop a{
+    color: black;
+    font-size: larger;
+    margin-left:23%;
+    /* padding-top: 50%; */
+    text-decoration-style:none;
+
+}
+
+.makemoneywithus a{
+    margin-left: 20%;
+    text-decoration: none;
+/* font-size: large; */
+color:azure;
+    
+
+
+}
+.letushelpyou h3{
+    margin-left: 20%;
+    margin-top:20%;
+    color:azure;
+
+}
+
+.letushelpyou a{
+    margin-left: 25%;
+    margin-top:20%;
+    text-decoration: none;
+/* font-size: large; */
+color:azure;
+
+}
+
+.connectwithus a{
+    text-decoration: none;
+    /* font-size: large; */
+    border-top: 15%;
+    color: azure;
+    margin: 10%;
+}
+
+.footmain a:hover{
+    font-size: large;
+    color: aqua;
+}
+
+.footmain h3:hover{
+    font-size:larger;
+    color: blue;
+    
+}
+.footer h3{
+    color: aliceblue;
+}
+

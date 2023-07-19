@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container
+{
+    background-color: #FFF8DC;
+    height: 950px;
+    width: 30%;
+    margin-left: 34%;
+    margin-bottom:5%;
+    margin-top: 5%;
+    border: 1px solid black;
+    /* background-color: rgb(186, 241, 241); */
+    /* display: flex;
+    justify-content: center;
+     */
+    
+}
+.addressword{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* color: rgb(251, 166, 62);
+     */
+     color: white;
+    background-color: red;
+    
+}
+.addressoption
+{
+background-color:  rgb(251, 184, 102);
+width: 90%;
+margin-left: 5%;
+height: 12%;
+/* display: flex;
+justify-content: center; */
+border: 2px solid red;
+border-radius: 4px;
+margin-top: 2%;
+
+
+}
+
+.addressoption p{
+    margin-top:5%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+    margin-right: 5%;
+}
+
+.addressoption h4{
+    /* margin-top:5%; */
+    margin-left: 5%;
+    margin-bottom: 0%;
+    color: rgb(43, 205, 220);
+}
+.addressoption a{
+    text-decoration: none;
+    color: black;
+    margin-top:5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.addaddress{
+    margin-top: 7%;
+    /* background-color: aqua; */
+    margin-left: 20%;
+    margin-right: 16%;
+    margin-bottom: 4%;
+}
+
+.addaddress a{
+    text-decoration: none;
+    
+}
+.unwanted
+{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.or h3{
+    margin-left: 45%;
+}
+
+.backtowebsite{
+    margin-left: 40%;
+    margin-top: 5%;
+}

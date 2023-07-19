@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.youraccount{
+    height: 70px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.container {
+    height: 2000px;
+    width: 90%;
+    background-color: rgb(243, 128, 79);
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 32% 32% 32%;
+    margin-bottom: 4%;
+    grid-row-gap: 1%;
+    grid-column-gap:1% ;
+    justify-content: center;
+}
+.requiredtext {
+    height: 35%;
+    background-color: rgb(248, 246, 170);
+    width: 100%;
+    align-items: center;
+    /* margin-top: 38%; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* /* padding: 5%; */
+}
+.yourorders {
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+    
+    
+}
+
+.loginandsecurity{
+   
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+}
+
+.prime{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+    
+    
+}
+
+.youraddress{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+    
+    
+}
+
+.paymentoption{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+
+}
+
+.amazonbalance{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+
+}
+
+.contactus{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+    
+}
+
+.digitalcontentanddevices{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+    
+    
+}
+
+.morewaystopay{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+    margin: 1%;
+    
+}
+.extra
+{
+        background-color: beige;
+        margin: 0%;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 100%;
+        margin: 1%;
+        
+
+}
+.background
+{
+    background-color: aqua;
+    height: 65%;
+    width: 100%;
+}
+.background img{
+    height: 100%;
+    width: 100%;
+}
+
+.requiredtext h2{
+    padding-left: 0%;
+    /* padding-top: 2%; */
+}
+.writespecs{
+background-color: aqua;
+margin-top: 0%;
+}
+
+.description{
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-top: 1.5%;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+button{
+    margin-left: 40%;
+    margin-top: 0%;
+}
+.returntomainpage{
+    display: flex;
+    justify-content: center;
+}

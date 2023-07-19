@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.youraccount{
+    height: 70px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.container
+{
+    height: 700px;
+    width: 80%;
+    background-color: red;
+    display: grid;
+    margin-left: 10%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows:  33.3% 33.3% 33.3% ;
+    margin-bottom: 4%;
+}
+.requiredtext{
+    height: 69%;
+    background-color: rgb(231, 229, 91);
+    width: 40%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+.yourorders{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://www.shutterstock.com/image-vector/logistics-package-vector-icon-260nw-1298913529.jpg");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.loginandsecurity{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://thumbs.dreamstime.com/b/security-login-creative-icon-simple-element-illustration-security-login-concept-symbol-design-web-development-collection-p-123677910.jpg");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.prime{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoQbilKPSTLq0yaJUlbpE-8tweoahDhVp2Xg&usqp=CAU");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.youraddress{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://png.pngtree.com/png-vector/20191023/ourmid/pngtree-vector-location-icon-png-image_1851683.jpg");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.paymentoption{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://thumbs.dreamstime.com/z/payment-method-icon-trendy-payment-method-logo-concept-white-payment-method-icon-trendy-payment-method-logo-concept-white-131190066.jpg");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.amazonbalance{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/38/00/check-balance-on-smartphone-thin-line-icon-vector-23383800.jpg");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.contactus{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://t4.ftcdn.net/jpg/05/04/07/83/360_F_504078395_9Fo5jWrwI8Pbfr6hrPRUvUMsjR1R3Pvy.jpg");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.digitalcontentanddevices{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://thumbs.dreamstime.com/b/vector-illustration-icon-digital-information-media-concept-mobile-smartphone-126199882.jpg");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}
+
+.morewaystopay{
+    background-color: beige;
+    margin: 0%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 81.3%;
+    margin: 5%;
+    background-image: url("https://cdn.sanity.io/images/sdd9dua4/production/83acd591d922c429b302ad416698cfb8b13e8422-1200x600.png");
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+}

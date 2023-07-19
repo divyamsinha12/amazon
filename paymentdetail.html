@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Form</title>
+	<style>
+		form {
+			max-width: 600px;
+			margin: 2px auto;
+			
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+		input[type="text"], select {
+			display: block;
+			width: 100%;
+			padding: 5px;
+			margin-bottom: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" required>
+
+		<label for="phone">Phone:</label>
+		<input type="text" id="phone" name="phone" required>
+
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address" required>
+
+		<label for="item">Payment:</label> 
+		<select id="item" name="item" required>
+			<option value="">Payment Option</option>
+			<option value="t-shirt">Cash on delivery</option>
+			<option value="hoodie">Credit Card</option>
+			<option value="jacket">Debit Card</option>
+		</select>
+
+		<!-- <label for="size">Size:</label> -->
+		<!-- <input type="text" id="size" name="size" required> -->
+         
+		<label for="quantity">Quantity:</label>
+		<input type="text" id="quantity" name="quantity" required>
+
+		<br>
+		<label for="verify">Verify you are human :</label>
+		 <input type="checkbox" name="Verify" id=""required>
+<br>
+		<input type="submit" value="Submit">
+		
+		
+	</form>
+</body>
+</html>
